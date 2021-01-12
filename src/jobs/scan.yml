@@ -1,0 +1,26 @@
+description: >
+  Runs sken.ai CLI
+# What will this job do?
+# Descriptions should be short, simple, and clear.
+executor: default
+machine:
+  image: circleci/classic:201808-01
+steps:
+  - checkout
+  - run:
+      name: Update pyenv
+      command: |
+        # Install pyenv-update to allow addition of python 3.7.0
+        git clone git://github.com/pyenv/pyenv-update.git $(pyenv root)/plugins/pyenv-update
+        pyenv update
+        pyenv install 3.6.9
+        
+  - run:
+      name: Set Python Version
+      command: pyenv global 3.6.9
+  - run:
+      name: Install skencli
+      command: pip install --upgrade skencli
+  - run:
+      name: Scan
+      command: skencli
