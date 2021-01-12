@@ -2,7 +2,9 @@ description: >
   Runs sken.ai CLI
 # What will this job do?
 # Descriptions should be short, simple, and clear.
+
 executor: default
+
 machine:
   image: circleci/classic:201808-01
 steps:
