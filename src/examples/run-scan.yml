@@ -9,7 +9,7 @@ description: >
 usage:
   version: 2.1
   orbs:
-    skencli: skenai/skencli@1.0.0
+    skencli: skenai/skencli@x.y
   workflows:
     main:
       jobs:
