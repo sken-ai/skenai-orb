@@ -1,4 +1,0 @@
-description: >
-  Executor for skencli
-machine:
-  image: circleci/classic:201808-01
