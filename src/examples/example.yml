@@ -1,7 +1,7 @@
 description: >
-  This example describes how to use sken.ai's orb.
+  This example describes how to use sken.ai's orb. This orb will run security scanners based off the config in your sken.yaml file.
   Before running this orb, you must login to our dashboard (https://dashboard.sken.ai) to obtain your org and app id.
-  Once done, create a sken.yaml in the root directory. Then you may execute this orb.
+  Once done, create a sken.yaml in the root directory. You may then execute this orb.
   For more information: http://docs.sken.ai/en/articles/4340878-quickly-get-started-with-sken-setup-sken-in-your-ci-cd
 # Provide a use-case based example for using this orb.
 # Everything in the `usage` section will be displayed in the orb registry.
