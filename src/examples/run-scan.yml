@@ -2,7 +2,7 @@ description: >
   This example describes how to use sken.ai's orb.
   First go to https://sken.ai and sign up for a free forever account.
   Then login to sken dashboard at https://dashboard.sken.ai , create a new application there and obtain your org-id and app-id for that application.
-  This orb will run security scanners based off the config in your sken.yaml file. 
+  This orb will run security scanners based off the config in your sken.yaml file.
   For more information: http://docs.sken.ai/en/articles/4797372-how-to-integrate-sken-ai-with-circleci
 # Provide a use-case based example for using this orb.
 # Everything in the `usage` section will be displayed in the orb registry.
