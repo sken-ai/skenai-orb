@@ -2,9 +2,9 @@ description: >
   This job will run security scanners based off the config in your sken.yaml file.
   Before running this orb, you must login to our dashboard (https://dashboard.sken.ai) to obtain your org and app id.
   Once done, create a sken.yaml in the root directory. You may then run this job.
-  For more information: http://docs.sken.ai/en/articles/4340878-quickly-get-started-with-sken-setup-sken-in-your-ci-cd
-  This job will always succeed regardless of the results of the scan.
-  Return to our dashboard portal to analyze the results.
+  For more information: http://docs.sken.ai/en/articles/4340878-quickly-get-started-with-sken-setup-sken-in-your-ci-cd .
+  This job runs the scans as defined in sken.yaml and logs the results.
+  The scan results are available in the Sken dashboard https://dashboard.sken.ai once the job is completed.
 # What will this job do?
 # Descriptions should be short, simple, and clear.
 
