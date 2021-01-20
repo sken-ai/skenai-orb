@@ -1,7 +1,9 @@
 version: 2.1
 
 description: >
-  Run automated application security testing with Sken.ai. Use all scan types across SAST, DAST, SCA, Secrets and more.
+  Sken.ai offers a DevOps-first Continuous Application Security Scanning.
+  With Sken, your apps on Circle CI will be automatically scanned for security vulnerabilities.
+  Sken is one tool to do all types of scans - SAST, DAST, SCA, Secrets and more, without the need for any AppSec expertise.
 # What will your orb allow users to accomplish?
 # Descriptions should be short, simple, and informative.
 
